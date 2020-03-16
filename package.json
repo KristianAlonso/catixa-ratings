@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "author": "Kalonso",
-  "license": "GNU General Public License v3.0",
+  "license": "GPL-3.0-or-later",
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon app.js",
     "serve": "cross-env NODE_ENV=development nodemon app.js"
@@ -18,6 +18,7 @@
   "devDependencies": {
     "cross-env": "^6.0.3",
     "dotenv": "^8.2.0",
+    "eslint": "^6.8.0",
     "nodemon": "^2.0.2"
   }
 }

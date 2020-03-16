@@ -1,9 +1,9 @@
 {
-  "name": "nodejs-back-end",
+  "name": "catixa",
   "version": "1.0.0",
   "main": "app.js",
   "author": "Kalonso",
-  "license": "MIT",
+  "license": "GNU General Public License",
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon app.js",
     "serve": "cross-env NODE_ENV=development nodemon app.js"

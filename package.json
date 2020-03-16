@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "author": "Kalonso",
-  "license": "GNU General Public License",
+  "license": "GNU General Public License v3.0",
   "scripts": {
     "start": "cross-env NODE_ENV=production nodemon app.js",
     "serve": "cross-env NODE_ENV=development nodemon app.js"

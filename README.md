@@ -1,1 +1,1 @@
-catixa-ratings-api
+catixa-ratings

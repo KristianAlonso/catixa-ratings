@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-back-end",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Kalonso",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon app.js",
+    "serve": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.0",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
